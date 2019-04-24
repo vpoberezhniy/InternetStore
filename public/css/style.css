@@ -1,0 +1,66 @@
+.pos {
+    width: 800px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    }
+
+.products {
+        display: flex;
+        flex-wrap: wrap;
+        }
+.product{
+            width: 25%;
+            padding: 10px;
+    }
+.product>div{
+         border: solid 1px #c7ddef;
+         border-radius: 10px;
+         padding: 10px;
+         height: 100%;
+     }
+.product>div:hover{
+    border:solid 1px #00c0ef;
+    box-shadow: 0 0 15px #00acd6;
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    display: block;
+    height: 16px;
+    width: 16px;
+    border: 1px #FF0000 solid;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    font-size: 10px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.basketbtn {
+    width:250px;
+    height: auto;
+    float: right;
+}
+
+.checkoutbtn {
+    width:100px;
+    height: auto;
+    float: right;
+}
+
+.fdn{
+    max-width: 50px;
+    display: inline;
+}
+
+.basket_msg {
+    margin: 20% 0 0 35%;
+}
+
+.basket_msg button { margin-left:40%; }
